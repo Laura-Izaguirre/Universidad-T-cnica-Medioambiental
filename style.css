@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    max-width: 100%;
+    max-height: 8rem;
+    background-color: #fcfcfc;
+    background-image: url("./images/fondo.jpg");
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding-top: 5rem;
+    width: max-content;
+}
+
+#linea {
+    border: 0. solid gray;
+    width: 13%;
+    margin-bottom: 5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#lista {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 4rem 0;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: green;
+    text-decoration-style: solid;
+    padding-bottom: 0.1rem;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1rem;
+    width: max-content;
+}
+
+.contenedor-principal {
+    margin-bottom: 5rem;
+}
+
+.contenedor-carreras{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+details {
+    width: 20rem;
+    background-color: green;
+    margin: 0.6rem 0.1rem;
+}
+
+.subtitulo-contenido {
+    padding: 2rem 0;
+}
+
+.descripcion-carreras {
+    width: 18rem;
+    padding: 1rem;
+}
+
+summary {
+    list-style: none;
+}
+
+#titulo-sedes {
+    padding: 2rem 0;
+}
+
+#sedes {
+    width: 67rem;
+    height: 29.5rem;
+    background-color: #0a9b17;
+    color: white;
+}
+
+#posicion-sedes {
+    display: flex;
+    justify-content: center;
+    column-gap: 0.3rem;
+}
+
+.contenido-sedes {
+    border: 0.1rem solid white;
+
+}
+
+.imagen-sedes {
+    width: 30rem;
+    height: 15rem;
+}
+
+.parrafo-sedes {
+    width: 30rem;
+}
+
+footer {
+    max-width: 100%;
+    max-height: 5rem;
+    background-color: #fcfcfc;
+    background-image: url("./images/fondo.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#texto-footer {
+    padding: 2rem 0;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
